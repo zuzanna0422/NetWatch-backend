@@ -2,5 +2,5 @@ namespace NetWatch.Dtos;
 
 public class DevicePatchDto
 {
-    public bool Active { get; set; }
+    public bool? Active { get; set; }
 }

@@ -34,3 +34,5 @@ C:\Users\zuzia\Desktop\NetWatch\backend\NetWatch\obj\Debug\net9.0\ref\NetWatch.d
 C:\Users\zuzia\Desktop\NetWatch\backend\NetWatch\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\zuzia\Desktop\NetWatch\backend\NetWatch\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\zuzia\Desktop\NetWatch\backend\NetWatch\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\zuzia\Desktop\NetWatch\backend\NetWatch\bin\Debug\net9.0\Data\topology.json
+C:\Users\zuzia\Desktop\NetWatch\backend\NetWatch\obj\Debug\net9.0\NetWatch.sourcelink.json
