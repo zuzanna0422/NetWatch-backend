@@ -1,0 +1,6 @@
+@NetWatch_HostAddress = http://localhost:5281
+
+GET {{NetWatch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
