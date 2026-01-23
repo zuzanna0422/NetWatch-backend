@@ -31,4 +31,16 @@ public class DevicesController : ControllerBase
         }
         return NoContent();
     }
+    [HttpGet("{id}/reachable-devices")]
+    public IActionResult GetReachable(int id, [FromServices] ReachableDevices reachableDevices)
+    {
+        var device = _storage.Topology.Devices.FirstOrDefault(d => d.Id == id);
+        if (device == null)
+        {
+            return NotFound();
+        }
+
+        var reachableIds = reachableDevices.GetReachableDevicesIds(id);
+        return Ok(reachableIds);
+    }
 }

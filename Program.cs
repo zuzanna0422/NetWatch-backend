@@ -1,3 +1,5 @@
+using NetWatch.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-builder.Services.AddSingleton<NetWatch.Services.TopologyStorage>();
+builder.Services.AddSingleton<TopologyStorage>();
+builder.Services.AddSingleton<ReachableDevices>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
