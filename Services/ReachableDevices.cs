@@ -11,7 +11,7 @@ public class ReachableDevices
     }
     public List<int> GetReachableDevicesIds(int startId)
     {
-        var results = new HashSet<int>();
+        var results = new List<int>();
         var visited = new HashSet<int>();
         var queue = new Queue<int>();
 
@@ -55,7 +55,8 @@ public class ReachableDevices
             }
         }
 
-        return results.ToList();
+        results.Sort();
+        return results;
 
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetWatch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef350ddeae3a3e5d01f9eb49e2db6892c8dbaf05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8a794fb3fb73c1806b08adf3b7eda7bbffb4e25")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetWatch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetWatch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

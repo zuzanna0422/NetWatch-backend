@@ -9,6 +9,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddSingleton<TopologyStorage>();
 builder.Services.AddSingleton<ReachableDevices>();
+builder.Services.AddSingleton<ReachableDevicesEvents>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
